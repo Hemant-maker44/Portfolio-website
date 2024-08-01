@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    font-family:  "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+li{
+   list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+button{
+    background-color:rgb(18,155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px; 
+    font-weight:600;
+    width:fit-content;
+
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.searchbar{
+    display: flex;
+    gap: 20px;
+
+}
+input{
+    padding: 4px 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-left-section{
+    width: 60%;
+    padding: 0 8%;
+}
+
+.hero-left-section h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.hero-left-section h2 span{
+    color:rgb(18,155, 155) ;
+    font-weight: 900;
+    font-size: 2.5 rem;
+}
+.hero-left-section p{
+    font-weight: 500;
+
+}
+.hero-left-section p span{
+    font-weight:700 ;
+    font-size: 25px;
+    color: rgb(18,155, 155);
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+.hero-right-section-btn{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.hero-right-section img{
+    height: ;
+    width: ;
+    border-radius:10%;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 0;
+}
+footer p{
+    font-size:20px ;
+    font-weight: 500;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 40px;
+}
+footer ul li a i:hover{
+    font: size 60px;
+    font-weight: 900;
+
+}
+
+
+
+
+
